@@ -25,7 +25,8 @@ export async function fetchWeather(latLong) {
         params: {q: latLong},
         headers: {
             'X-RapidAPI-Key': '41dad0a03cmshaa7e4b27641c4c8p16b39ajsn952fe80c5fd4',
-            'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
+            'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com',
+            'x-rapidapi-ua': 'RapidAPI-Playground'
         }
     }
     try {
